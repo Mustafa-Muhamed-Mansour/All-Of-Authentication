@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GithubFragment"
+    >
+
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Authentication by Github"
+        android:textSize="@dimen/_25ssp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_margin="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/edit_email_github"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Github"
+        android:textColorHint="@color/black"
+        android:textSize="@dimen/_20ssp"
+        android:textColor="@color/black"
+        android:layout_margin="@dimen/_10sdp"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/txt_welcome"
+        />
+
+    <Button
+        android:id="@+id/btn_save_github"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="حفظ"
+        android:textSize="@dimen/_23ssp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_below="@id/edit_email_github"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/btn_logout_github"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="إعمل تسجيل خروج"
+        android:textSize="@dimen/_23ssp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>

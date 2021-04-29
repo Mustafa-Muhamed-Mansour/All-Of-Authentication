@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ButtonsFragment"
+    >
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+    <Button
+        android:id="@+id/btn_email_and_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:text="Auth. by Email and Password"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:text="Auth. by Phone"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:text="Auth. by Google"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:text="Auth. by Facebook"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:text="Auth. by Twitter"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_github"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:text="Auth. by Github"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_yahoo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:text="Auth. by Yahoo"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_microsoft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:text="Auth. by Microsoft"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_apple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:text="Auth. by Apple"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btn_anonymous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:text="Auth. by Anonymous"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        />
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

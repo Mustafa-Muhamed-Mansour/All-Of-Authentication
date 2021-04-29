@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacebookFragment"
+    >
+
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Authentication by Facebook"
+        android:textSize="@dimen/_25ssp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_margin="@dimen/_5sdp"
+        android:padding="@dimen/_5sdp"
+        android:gravity="center"
+        />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_below="@id/txt_welcome"
+        />
+
+    <EditText
+        android:id="@+id/edit_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Facebook"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/login_button_facebook"
+        />
+
+    <Button
+        android:id="@+id/btn_logout_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="إعمل تسجيل خروج"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>
